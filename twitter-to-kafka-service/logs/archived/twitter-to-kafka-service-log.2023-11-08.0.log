@@ -1,0 +1,282 @@
+2023-11-08 16:51:01 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 22776 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 16:51:01 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 16:51:02 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.752 seconds (process running for 2.819)
+2023-11-08 16:51:02 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - application initialization!!
+2023-11-08 16:51:02 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter streams configuration - [Java, Microservice, Kafka, Elasticsearch]
+2023-11-08 16:52:51 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 25340 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 16:52:51 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 16:52:52 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.687 seconds (process running for 2.627)
+2023-11-08 16:52:52 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - application initialization!!
+2023-11-08 16:52:52 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter streams configuration - [Java, Microservice, Kafka, Elasticsearch]
+2023-11-08 16:55:28 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 23656 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 16:55:28 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 16:55:29 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.616 seconds (process running for 2.532)
+2023-11-08 16:55:29 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - application initialization!!
+2023-11-08 16:55:29 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter streams configuration - [Java, Microservice, Kafka, Elasticsearch]
+2023-11-08 16:55:29 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Welcome property -Hello Tweet!
+2023-11-08 17:01:50 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 13920 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 17:01:50 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 17:01:50 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'twitterToKafkaServiceConfig': Injection of autowired dependencies failed
+2023-11-08 17:01:50 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-08 17:01:50 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'twitterToKafkaServiceConfig': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:801)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:950)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.microservices.practices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.intellij.rt.execution.application.AppMainV2.main(AppMainV2.java:131)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'twitterToKafkaServiceConfig': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:910)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 23 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'twitter-to-kafka-service.twitter-keywords' in value "${twitter-to-kafka-service.twitter-keywords}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:747)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	... 35 common frames omitted
+2023-11-08 17:03:04 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 25384 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 17:03:04 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 17:03:05 [main] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'twitterToKafkaServiceConfig': Injection of autowired dependencies failed
+2023-11-08 17:03:05 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-08 17:03:05 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'twitterToKafkaServiceApplication': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'twitterToKafkaServiceConfig': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:801)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:950)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:738)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:440)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.microservices.practices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.intellij.rt.execution.application.AppMainV2.main(AppMainV2.java:131)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'twitterToKafkaServiceConfig': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:910)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 23 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'twitter-to-kafka-service.twitter-keywords' in value "${twitter-to-kafka-service.twitter-keywords}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:747)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	... 35 common frames omitted
+2023-11-08 17:10:58 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 848 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 17:10:58 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 17:10:58 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.609 seconds (process running for 2.526)
+2023-11-08 17:10:58 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - application initialization!!
+2023-11-08 17:10:58 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter streams configuration - [Java, Microservice, Kafka, Elasticsearch]
+2023-11-08 17:10:58 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Welcome property -Hello Tweet!
+2023-11-08 17:15:10 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 8996 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 17:15:10 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 17:15:11 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.653 seconds (process running for 2.501)
+2023-11-08 17:15:11 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -Hello Tweet!
+2023-11-08 17:18:20 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 17:18:21 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 21684 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 17:18:21 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 17:18:22 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.561 seconds (process running for 2.537)
+2023-11-08 17:18:22 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -Hello Tweet!
+[Ljava.lang.Object;@278f8425
+2023-11-08 17:19:00 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 17:19:00 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 24508 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 17:19:00 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 17:19:01 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.557 seconds (process running for 2.456)
+2023-11-08 17:19:01 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -Hello Tweet!
+[Ljava.lang.Object;@34cf5a97
+2023-11-08 17:19:38 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 17:19:39 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 4596 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 17:19:39 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 17:19:40 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.922 seconds (process running for 2.81)
+2023-11-08 17:19:40 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -Hello Tweet!
+[Ljava.lang.Object;@34cf5a97
+2023-11-08 17:20:31 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 17:20:32 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 2868 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 17:20:32 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 17:20:33 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.729 seconds (process running for 2.672)
+2023-11-08 17:20:33 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -Hello Tweet!
+[Ljava.lang.String;@278f8425
+2023-11-08 17:21:14 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 17:21:15 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 20064 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 17:21:15 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 17:21:16 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.945 seconds (process running for 2.829)
+2023-11-08 17:21:16 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -Hello Tweet!
+[Java, Microservice, Kafka, Elasticsearch]
+2023-11-08 17:23:06 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 17:23:07 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 26520 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 17:23:07 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 17:23:08 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.632 seconds (process running for 2.512)
+2023-11-08 17:23:08 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -[Java, Microservice, Kafka, Elasticsearch]Hello Tweet!
+2023-11-08 17:23:42 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 17:23:43 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 8220 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 17:23:43 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 17:23:44 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.614 seconds (process running for 2.501)
+2023-11-08 17:23:44 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -[Java, Microservice, Kafka, Elasticsearch]
+Hello Tweet!
+2023-11-08 17:56:33 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 17:56:33 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 16048 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 17:56:33 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 17:56:34 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.568 seconds (process running for 2.618)
+2023-11-08 17:56:34 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -
+Hello Tweet!
+2023-11-08 17:57:10 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 17:57:11 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 21884 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 17:57:11 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 17:57:12 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.431 seconds (process running for 2.282)
+2023-11-08 17:57:12 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -
+Hello Tweet!
+2023-11-08 17:58:14 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 17:58:15 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 22904 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 17:58:15 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 17:58:16 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.675 seconds (process running for 2.562)
+2023-11-08 17:58:16 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -
+Hello Tweet!
+2023-11-08 17:59:21 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 17:59:22 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 20400 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 17:59:22 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 17:59:22 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.535 seconds (process running for 2.371)
+2023-11-08 17:59:22 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -
+Hello Tweet!
+2023-11-08 18:05:16 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 18:05:17 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 26300 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 18:05:17 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 18:05:18 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.65 seconds (process running for 2.54)
+2023-11-08 18:05:18 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -
+Hello Tweet Message from twitter props!
+2023-11-08 18:09:24 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 18:09:24 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 23156 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 18:09:24 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 18:09:25 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.542 seconds (process running for 2.528)
+2023-11-08 18:09:25 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -
+Hello Tweet Message from twitter props!
+2023-11-08 18:09:40 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 18:09:41 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 11936 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 18:09:41 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 18:09:42 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.557 seconds (process running for 2.461)
+2023-11-08 18:09:42 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -
+Hello Tweet Message from twitter props!
+2023-11-08 18:09:56 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 18:09:57 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 24868 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 18:09:57 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 18:09:58 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.706 seconds (process running for 2.597)
+2023-11-08 18:09:58 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -[Java, Microservices, Kafka, Elasticsearch]
+Hello Tweet Message from twitter props!
+2023-11-08 18:10:39 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 18:10:40 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 22088 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 18:10:40 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 18:10:41 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.796 seconds (process running for 2.706)
+2023-11-08 18:10:41 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -[Java, Microservices, Kafka, Elasticsearch, Logstash, Kibana]
+Hello Tweet Message from twitter props!
+2023-11-08 18:13:52 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 18:13:53 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 21680 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 18:13:53 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 18:13:54 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.538 seconds (process running for 2.448)
+2023-11-08 18:13:54 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-08 18:13:54 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:755)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.microservices.practices.twitter.to.kafka.service.TwitterToKafkaServiceApplication.main(TwitterToKafkaServiceApplication.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.intellij.rt.execution.application.AppMainV2.main(AppMainV2.java:131)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.toArray()" because the return value of "com.microservices.practices.config.TwitterToKafkaServiceConfig.getTwitterKeywords()" is null
+	at com.microservices.practices.twitter.to.kafka.service.controller.TwitterToKafkaServiceInitializer.run(TwitterToKafkaServiceInitializer.java:25)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
+	... 19 common frames omitted
+2023-11-08 18:14:38 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-08 18:14:39 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 21272 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-08 18:14:39 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-08 18:14:40 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.509 seconds (process running for 2.339)
+2023-11-08 18:14:40 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -[Java, Microservice, Kafka, Elasticsearch]
+Hello Tweet!

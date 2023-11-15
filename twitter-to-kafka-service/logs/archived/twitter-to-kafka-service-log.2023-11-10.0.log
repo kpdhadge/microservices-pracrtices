@@ -1,0 +1,15 @@
+2023-11-10 13:12:55 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to kafka service started ...
+2023-11-10 13:12:56 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17.0.9 with PID 24264 (C:\Users\Learnings\HandsOnPractice\microservices-pracrtices\twitter-to-kafka-service\target\classes started by 13653 in C:\Users\Learnings\HandsOnPractice\microservices-pracrtices)
+2023-11-10 13:12:56 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-10 13:12:57 [main] INFO  c.m.p.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.728 seconds (process running for 2.835)
+2023-11-10 13:12:57 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter keyword configured -[Java, Microservice, Kafka, Elasticsearch]
+Hello Tweet!
+2023-11-10 13:12:57 [main] INFO  c.m.p.t.t.k.s.c.TwitterToKafkaServiceInitializer - Twitter streaming start ......
+2023-11-10 13:12:57 [main] INFO  c.m.p.t.t.k.s.c.MockTwitterToKafkaServiceInitializer - Starting mock filtering twitter streams for keywords [Java, Microservice, Kafka, Elasticsearch]
+2023-11-10 13:12:57 [pool-2-thread-1] INFO  c.m.p.t.t.k.s.l.TwitterToKafkaServiceListener - Twitter stream status -consectetuer massa porttitor purus sit adipiscing consectetuer purus
+2023-11-10 13:13:07 [pool-2-thread-1] INFO  c.m.p.t.t.k.s.l.TwitterToKafkaServiceListener - Twitter stream status -libero consectetuer adipiscing massa ultricies Lorem lectus sit sed pulvinar posuere Maecenas ultricies massa Lorem Maecenas
+2023-11-10 13:13:17 [pool-2-thread-1] INFO  c.m.p.t.t.k.s.l.TwitterToKafkaServiceListener - Twitter stream status -adipiscing Fusce massa ipsum massa Maecenas amet adipiscing libero pulvinar dolor magna sit
+2023-11-10 13:13:27 [pool-2-thread-1] INFO  c.m.p.t.t.k.s.l.TwitterToKafkaServiceListener - Twitter stream status -Maecenas purus Lorem Lorem congue ipsum Maecenas massa massa lectus Lorem porttitor
+2023-11-10 13:13:37 [pool-2-thread-1] INFO  c.m.p.t.t.k.s.l.TwitterToKafkaServiceListener - Twitter stream status -pulvinar purus ipsum pulvinar Fusce adipiscing dolor Fusce sed sed ipsum lectus congue Maecenas
+2023-11-10 13:13:47 [pool-2-thread-1] INFO  c.m.p.t.t.k.s.l.TwitterToKafkaServiceListener - Twitter stream status -purus ipsum adipiscing purus sed Maecenas Fusce adipiscing ultricies elit sit sed massa
+2023-11-10 13:13:57 [pool-2-thread-1] INFO  c.m.p.t.t.k.s.l.TwitterToKafkaServiceListener - Twitter stream status -elit Fusce purus adipiscing sit sed amet lectus sit magna
