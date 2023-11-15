@@ -1,0 +1,3 @@
+[submodule "common-config-repository"]
+	path = common-config-repository
+	url = https://github.com/kpdhadge/common-config-repository.git
