@@ -7,3 +7,4 @@ spring:
     config:
       name: kafka-to-elastic-service,config-client
       uri: http://localhost:8888
+      label: main

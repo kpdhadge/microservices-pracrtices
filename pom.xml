@@ -9,6 +9,7 @@
 		<module>commons</module>
 		<module>config-server</module>
 		<module>kafka-to-elastic-service</module>
+		<module>elastic</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -36,6 +37,7 @@
 		<kafka-avro-serializer.version>5.5.1</kafka-avro-serializer.version>
 		<spring-cloud-version>2022.0.4</spring-cloud-version>
 		<spring-cloud-config.version>4.0.4</spring-cloud-config.version>
+		<elasticsearch.version>7.9.1</elasticsearch.version>
 	</properties>
 	<repositories>
 		<repository>
@@ -45,6 +47,11 @@
 	</repositories>
 	<dependencyManagement>
 		<dependencies>
+			<dependency>
+				<groupId>com.microservices.practices</groupId>
+				<artifactId>elastic</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 			<dependency>
 				<groupId>com.microservices.practices</groupId>
 				<artifactId>kafka-to-elastic-service</artifactId>
@@ -92,6 +99,11 @@
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-webflux</artifactId>
+				<version>${spring-boot.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-test</artifactId>
 				<scope>test</scope>
 				<version>${spring-boot.version}</version>
@@ -101,6 +113,21 @@
 						<artifactId>junit-vintage-engine</artifactId>
 					</exclusion>
 				</exclusions>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+				<version>${spring-boot.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.elasticsearch</groupId>
+				<artifactId>elasticsearch</artifactId>
+				<version>${elasticsearch.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.elasticsearch.client</groupId>
+				<artifactId>elasticsearch-rest-high-level-client</artifactId>
+				<version>${elasticsearch.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.twitter4j</groupId>
